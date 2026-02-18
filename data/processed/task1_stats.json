@@ -1,0 +1,114 @@
+{
+  "period": {
+    "start": "2015-01-01",
+    "end": "2026-01-15"
+  },
+  "tickers": [
+    "TSLA",
+    "BND",
+    "SPY"
+  ],
+  "row_counts": {
+    "TSLA": 2775,
+    "BND": 2775,
+    "SPY": 2775
+  },
+  "adf_results": {
+    "TSLA": {
+      "close_price": {
+        "adf_stat": -0.780157,
+        "p_value": 0.82488143,
+        "critical_5pct": -2.862593,
+        "is_stationary": false
+      },
+      "daily_return": {
+        "adf_stat": -53.019619,
+        "p_value": 0.0,
+        "critical_5pct": -2.862583,
+        "is_stationary": true
+      }
+    },
+    "BND": {
+      "close_price": {
+        "adf_stat": -1.051382,
+        "p_value": 0.73406596,
+        "critical_5pct": -2.862587,
+        "is_stationary": false
+      },
+      "daily_return": {
+        "adf_stat": -10.433749,
+        "p_value": 0.0,
+        "critical_5pct": -2.862592,
+        "is_stationary": true
+      }
+    },
+    "SPY": {
+      "close_price": {
+        "adf_stat": 1.17088,
+        "p_value": 0.99577839,
+        "critical_5pct": -2.862586,
+        "is_stationary": false
+      },
+      "daily_return": {
+        "adf_stat": -17.228849,
+        "p_value": 0.0,
+        "critical_5pct": -2.862586,
+        "is_stationary": true
+      }
+    }
+  },
+  "risk_metrics": {
+    "TSLA": {
+      "ann_return": 0.474914,
+      "ann_volatility": 0.576923,
+      "sharpe_ratio": 0.753852,
+      "var_95_daily": -0.052529
+    },
+    "BND": {
+      "ann_return": 0.020434,
+      "ann_volatility": 0.053567,
+      "sharpe_ratio": -0.365267,
+      "var_95_daily": -0.004796
+    },
+    "SPY": {
+      "ann_return": 0.14285,
+      "ann_volatility": 0.177676,
+      "sharpe_ratio": 0.578863,
+      "var_95_daily": -0.016719
+    }
+  },
+  "outlier_summary": {
+    "TSLA": {
+      "count": 48,
+      "threshold": 0.109028
+    },
+    "BND": {
+      "count": 31,
+      "threshold": 0.010123
+    },
+    "SPY": {
+      "count": 36,
+      "threshold": 0.033578
+    }
+  },
+  "return_stats": {
+    "TSLA": {
+      "mean": 0.00188458,
+      "std": 0.03634274,
+      "min": -0.21062824,
+      "max": 0.2268999
+    },
+    "BND": {
+      "mean": 8.109e-05,
+      "std": 0.00337442,
+      "min": -0.05438471,
+      "max": 0.04220059
+    },
+    "SPY": {
+      "mean": 0.00056687,
+      "std": 0.01119254,
+      "min": -0.10942362,
+      "max": 0.10501941
+    }
+  }
+}
