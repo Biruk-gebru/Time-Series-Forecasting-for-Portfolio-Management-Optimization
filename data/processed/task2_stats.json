@@ -1,0 +1,30 @@
+{
+  "train_period": {
+    "start": "2015-01-02",
+    "end": "2024-12-31"
+  },
+  "test_period": {
+    "start": "2025-01-02",
+    "end": "2026-01-14"
+  },
+  "arima_order": [
+    0,
+    1,
+    0
+  ],
+  "lstm_window": 60,
+  "lstm_epochs_run": 50,
+  "metrics": {
+    "ARIMA(0, 1, 0)": {
+      "MAE": 71.129,
+      "RMSE": 90.2783,
+      "MAPE": 23.8278
+    },
+    "LSTM": {
+      "MAE": 12.9579,
+      "RMSE": 16.4053,
+      "MAPE": 3.758
+    }
+  },
+  "best_model_by_rmse": "LSTM"
+}
