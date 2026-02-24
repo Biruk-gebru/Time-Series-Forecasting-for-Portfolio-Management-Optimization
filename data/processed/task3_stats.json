@@ -1,0 +1,29 @@
+{
+  "model": "LSTM",
+  "training_data": {
+    "start": "2015-01-02",
+    "end": "2026-01-14",
+    "n_days": 2775
+  },
+  "forecast_params": {
+    "window_days": 60,
+    "epochs": 50,
+    "batch_size": 32,
+    "mc_simulations": 100
+  },
+  "last_known_price": 439.2,
+  "6m_forecast": {
+    "date": "2026-07-09",
+    "median_price": 71.26,
+    "p5_price": 44.4,
+    "p95_price": 87.88,
+    "expected_return_pct": -83.78
+  },
+  "12m_forecast": {
+    "date": "2027-01-01",
+    "median_price": -21.58,
+    "p5_price": -151.25,
+    "p95_price": 31.65,
+    "expected_return_pct": -104.91
+  }
+}
