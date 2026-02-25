@@ -1,0 +1,51 @@
+{
+  "backtest_period": {
+    "start": "2025-01-01",
+    "end": "2026-01-15"
+  },
+  "risk_free_rate": 0.0425,
+  "portfolios": {
+    "Max Sharpe": {
+      "weights": {
+        "TSLA": 0.0,
+        "BND": 0.0,
+        "SPY": 1.0
+      },
+      "metrics": {
+        "Total Return": 19.47,
+        "CAGR": 18.98,
+        "Ann. Volatility": 19.22,
+        "Sharpe Ratio": 0.778,
+        "Max Drawdown": -18.76
+      }
+    },
+    "Min Volatility": {
+      "weights": {
+        "TSLA": 0.0,
+        "BND": 0.92903,
+        "SPY": 0.07097
+      },
+      "metrics": {
+        "Total Return": 8.5,
+        "CAGR": 8.29,
+        "Ann. Volatility": 4.43,
+        "Sharpe Ratio": 0.8619,
+        "Max Drawdown": -2.26
+      }
+    },
+    "Benchmark 60/40": {
+      "weights": {
+        "TSLA": 0.0,
+        "BND": 0.4,
+        "SPY": 0.6
+      },
+      "metrics": {
+        "Total Return": 15.07,
+        "CAGR": 14.7,
+        "Ann. Volatility": 11.82,
+        "Sharpe Ratio": 0.8594,
+        "Max Drawdown": -11.29
+      }
+    }
+  }
+}
