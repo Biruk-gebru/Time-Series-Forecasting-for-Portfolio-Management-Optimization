@@ -1,0 +1,45 @@
+{
+  "risk_free_rate": 0.0425,
+  "expected_returns": {
+    "TSLA": -0.3874,
+    "BND": 0.018996,
+    "SPY": 0.126995
+  },
+  "max_sharpe": {
+    "weights": {
+      "TSLA": 0.0,
+      "BND": 0.0,
+      "SPY": 1.0
+    },
+    "expected_return": 0.126995,
+    "volatility": 0.178716,
+    "sharpe_ratio": 0.47279
+  },
+  "min_volatility": {
+    "weights": {
+      "TSLA": 0.0,
+      "BND": 0.92903,
+      "SPY": 0.07097
+    },
+    "expected_return": 0.02666,
+    "volatility": 0.056598,
+    "sharpe_ratio": -0.279874
+  },
+  "covariance_matrix": {
+    "TSLA": {
+      "TSLA": 0.33183585,
+      "BND": 0.00165969,
+      "SPY": 0.04994337
+    },
+    "BND": {
+      "TSLA": 0.00165969,
+      "BND": 0.00337097,
+      "SPY": 0.00100824
+    },
+    "SPY": {
+      "TSLA": 0.04994337,
+      "BND": 0.00100824,
+      "SPY": 0.03193931
+    }
+  }
+}
